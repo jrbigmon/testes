@@ -5,7 +5,7 @@ function adicionarHttp(url) {
 function processar(lista, addHttp){
     var lista2 = []
     for(let i = 0; i < lista.length; i++){
-          lista2.push ( addHttp ( lista[i] ) )
+          lista2.push (addHttp(lista[i]))
     }
     return lista2;
 }

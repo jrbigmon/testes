@@ -7,4 +7,3 @@ if(pesquisa){
     nome = 'Não Encontrado!'
     console.log(nome);
 }
-

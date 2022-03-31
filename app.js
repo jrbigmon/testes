@@ -1,8 +1,7 @@
 function comprimentar(){
-    return "Nova Criatura: " + this.nome + '; ' + this.caract + '; ' + this.ano 
+    return "Nova Criatura: " + this.nome + ', ' + this.caract + ', ' + this.ano 
 }
 let criaturas = [ 
-
     {
     nome: "C3PO",
     caract: "metal",
@@ -19,8 +18,8 @@ let criaturas = [
 
 function seresAnimado1 (lista){
     for(let i = 0; i < lista.length; i++){
-        // console.log(lista[i].comprimentar())
-        console.table(lista[i])
+        console.log(lista[i].comprimentar())
+        // console.table(lista[i])
     }
 }
 seresAnimado1(criaturas)

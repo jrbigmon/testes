@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulários</h1>
+    <br>
+    <form action="" method="post">
+        <label for="perfil">Adicione sua foto de perfil</label>
+        <br>
+        <input type="file" name="perfil" id="perfil" accept=".jpg,.png" multiple>
+        <br>
+        <input type="text" name="nome" placeholder="Nome">
+        <br>
+        <input type="email" name="email" placeholder="email@blablabla.com">
+        <br>
+        <input type="password" name="password" placeholder="Senha">
+        <br>
+        <label for="cinema">Você foi ao cinema esse ano?</label>
+        <br>
+        <input type="radio" name="cinema" id="sim" value="s" checked>
+        <label for="sim">Sim</label>
+        <br>
+        <input type="radio" name="cinema" id="nao" value="n">
+        <label for="nao">Não</label>
+        <br>
+        <label for="genero"> Qual o seu genero de filme favorito? </label>
+        <br>
+        <input type="checkbox" name="genero" id="terror" value="terror" checked>
+        <label for="terror">Terror</label>
+        <br>
+        <input type="checkbox" name="genero" id="romance" value="romance">
+        <label for="romance">Romance</label>
+        <br>
+        <input type="checkbox" name="genero" id="acao" value="acao">
+        <label for="acao">Ação</label>
+        <br>
+        <label for="color">Qual a sua cor favorito?</label>
+        <br>
+        <select name="color">
+            <option selected >selecione</option>
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+            <option value="black">Black</option>
+        </select>
+        <br>
+        <label for="aniversario">Qual a data do seu aniversario?</label>
+        <br>
+        <input type="date" name="aniversario">
+        <br>
+        <button type="reset">Limpar</button>
+        <button type="submit"> Enviar </button>
+        <button type="button">test</button> 
+    </form>
+</body>
+</html>
